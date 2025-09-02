@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Faiz-mohamed/leetCodeProblems/tree/master/0001-two-sum) |
 | [0014-longest-common-prefix](https://github.com/Faiz-mohamed/leetCodeProblems/tree/master/0014-longest-common-prefix) |
 | [0066-plus-one](https://github.com/Faiz-mohamed/leetCodeProblems/tree/master/0066-plus-one) |
+| [2756-buy-two-chocolates](https://github.com/Faiz-mohamed/leetCodeProblems/tree/master/2756-buy-two-chocolates) |
 ## Hash Table
 |  |
 | ------- |
@@ -48,4 +49,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0412-fizz-buzz](https://github.com/Faiz-mohamed/leetCodeProblems/tree/master/0412-fizz-buzz) |
+## Greedy
+|  |
+| ------- |
+| [2756-buy-two-chocolates](https://github.com/Faiz-mohamed/leetCodeProblems/tree/master/2756-buy-two-chocolates) |
+## Sorting
+|  |
+| ------- |
+| [2756-buy-two-chocolates](https://github.com/Faiz-mohamed/leetCodeProblems/tree/master/2756-buy-two-chocolates) |
 <!---LeetCode Topics End-->
