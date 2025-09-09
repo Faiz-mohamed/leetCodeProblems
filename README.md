@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/Faiz-mohamed/leetCodeProblems/tree/master/0066-plus-one) |
 | [0070-climbing-stairs](https://github.com/Faiz-mohamed/leetCodeProblems/tree/master/0070-climbing-stairs) |
 | [0412-fizz-buzz](https://github.com/Faiz-mohamed/leetCodeProblems/tree/master/0412-fizz-buzz) |
+| [2491-smallest-even-multiple](https://github.com/Faiz-mohamed/leetCodeProblems/tree/master/2491-smallest-even-multiple) |
 | [2556-convert-the-temperature](https://github.com/Faiz-mohamed/leetCodeProblems/tree/master/2556-convert-the-temperature) |
 ## Array
 |  |
@@ -57,4 +58,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2756-buy-two-chocolates](https://github.com/Faiz-mohamed/leetCodeProblems/tree/master/2756-buy-two-chocolates) |
+## Number Theory
+|  |
+| ------- |
+| [2491-smallest-even-multiple](https://github.com/Faiz-mohamed/leetCodeProblems/tree/master/2491-smallest-even-multiple) |
 <!---LeetCode Topics End-->
