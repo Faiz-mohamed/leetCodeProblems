@@ -1,21 +1,16 @@
-/**
- * @param {number} left
- * @param {number} right
- * @return {number[]}
- */
 var selfDividingNumbers = function (left, right) {
     let arr = [];
     for (let i = left; i <= right; i++) {
-        checkNum(i);
+        if(checkNum(i)) arr.push(i)
     }
     function checkNum(N) {
         let num = N.toString()
-        if (num.includes(0)) return;
+        if (num.includes(0)) return false;
         let count = num.length
         for (n of num) {
             if ((+num) % (+n) === 0) count--
         }
-        if (count === 0) arr.push((+num))
+        if (count === 0) return true
     }
     return arr
 };
