@@ -10,7 +10,7 @@ var selfDividingNumbers = function (left, right) {
         for (n of num) {
             if ((+num) % (+n) === 0) count--
         }
-        if (count === 0) return true
+        return count === 0
     }
     return arr
 };
