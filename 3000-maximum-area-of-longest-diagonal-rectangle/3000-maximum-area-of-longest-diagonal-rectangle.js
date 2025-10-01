@@ -1,16 +1,12 @@
 var areaOfMaxDiagonal = function (dimensions) {
-    let dimension = [];
-    let diagonal = 0;
-    for (d of dimensions) {
-        let temp = d[0] * d[0] + d[1] * d[1];
-        if (temp > diagonal) {
-            diagonal = temp;
-            dimension = d;
-        } else if (temp === diagonal) {
-            if ((d[0] * d[1]) > (dimension[0] * dimension[1])) {
-                dimension = d;
-            }
+    let max_area = 0;
+    let max_diago = 0;
+    for (let i = 0; i < dimensions.length; i++) {
+        let temp = (dimensions[i][0] * dimensions[i][0]) + (dimensions[i][1] * dimensions[i][1]);
+        if (temp > max_diago || (temp===max_diago && dimensions[i][0] * dimensions[i][1] > max_area)){
+            max_diago = temp
+            max_area = dimensions[i][0] * dimensions[i][1];
         }
     }
-    return dimension[0] * dimension[1];
+    return max_area;
 };
