@@ -1,7 +1,6 @@
 var sumZero = function (n) {
     let arr = [];
-    let j = Math.floor(n / 2);
-    for (let i = 1; i <= j; i++) {
+    for (let i = 1; i <= n / 2; i++) {
         arr.push(i);
         arr.push(-i);
     }
