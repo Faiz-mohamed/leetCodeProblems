@@ -1,16 +1,14 @@
 var compress = function (chars) {
-    let write = 0;
+    let arr = []
     let count = 1
     let val = chars[0]
 
     function makeArr(count, val) {
-        chars[write] = val;
-        write++;
+        arr.push(val)
         if (count !== 1) {
             let s = count.toString()
             for (let j = 0; j < s.length; j++) {
-                chars[write] = s[j];
-                write++
+                arr.push(s[j])
             }
         }
     }
@@ -27,7 +25,8 @@ var compress = function (chars) {
 
     makeArr(count, val)
 
-    chars.length = write
+    chars.length = 0
+    chars.push(...arr)
 
     return chars.length
 };
